@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        https://www.springframework.org/schema/context/spring-context.xsd">
+       
+   <bean id="cus" class="springcore.q1.Customer">  
+<property name="customerId" value="123"></property>
+<property name="customerName" value="Kota"></property>
+<property name="customerContact" value="988516987"></property>
+<property name="customerAddress" value="wahab chowk"></property>
+</bean>
+<bean id="add" class="springcore.q1.Address">
+<property name="street" value="v street"></property>
+<property name="city" value="tenali"></property>
+<property name="state" value="Andhra pradesh"></property>
+<property name="zip" value="522201"></property>
+<property name="country" value="India"></property>
+</bean>
+ 
+ 
+    </beans>
