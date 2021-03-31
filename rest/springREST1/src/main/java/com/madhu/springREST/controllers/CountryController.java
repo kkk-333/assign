@@ -1,4 +1,4 @@
-package com.madhu.springREST.controllers;
+package com.kalyan.springREST.controllers;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
