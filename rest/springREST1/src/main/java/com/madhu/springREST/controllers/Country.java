@@ -1,4 +1,4 @@
-package com.madhu.springREST.controllers;
+package com.kalyan.springREST.controllers;
 
 public class Country
 {
