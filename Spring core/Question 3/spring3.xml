@@ -36,11 +36,11 @@
   	
     </bean>
     
-    <bean id="BankAccountServiceImpl" class="springcore.com.BankAccountServiceImpl">
+    <bean id="BankAccountServiceImpl" class="springcore.q3.BankAccountServiceImpl">
   	<constructor-arg ref="bankAccountRe"/>
     </bean>
     
-     <bean id="BankAccountController" class="springcore.com.BankAccountController">
+     <bean id="BankAccountController" class="springcore.q3.BankAccountController">
   	<constructor-arg ref="BankAccountServiceImpl"/>
     </bean>
     
